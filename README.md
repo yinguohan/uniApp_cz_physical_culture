@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## 项目简介
 
 小兔鲜儿项目包含从首页浏览商品，商品详情，微信登录，加入购物车，提交订单，微信支付，订单管理等功能。
@@ -96,3 +97,6 @@ npm run dev:h5
 ├── tsconfig.json              # typescript 配置
 └── vite.config.ts             # vite 配置
 ```
+=======
+测试
+>>>>>>> efa5b47f443e99a3cf89fdc788c507a757f62758

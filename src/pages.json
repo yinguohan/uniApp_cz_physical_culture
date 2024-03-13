@@ -1,10 +1,21 @@
 {
+  // 组件自动引入规则
+  "easycom": {
+    // 是否开启自动扫描
+    "autoscan": true,
+    // 以正则方式自定义组件匹配规则
+    "custom": {
+      // uni-ui 规则如下配置
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue",
+      "^Czty(.*)": "@/components/Czty$1.vue"
+    }
+  },
   "pages": [
     //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
     {
       "path": "pages/index/index",
       "style": {
-        "navigationBarTitleText": "首页"
+        "navigationBarTitleText": "大连市金普新区中小学生综合实践学校"
       }
     },
     {
@@ -14,15 +25,15 @@
       }
     },
     {
-      "path": "pages/cart/cart",
+      "path": "pages/course/course",
       "style": {
-        "navigationBarTitleText": "购物车"
+        "navigationBarTitleText": "课程"
       }
     },
     {
-      "path": "pages/category/category",
+      "path": "pages/coach/coach",
       "style": {
-        "navigationBarTitleText": "分类"
+        "navigationBarTitleText": "教练"
       }
     },
     {
@@ -52,14 +63,14 @@
         "selectedIconPath": "static/tabs/home_selected.png"
       },
       {
-        "text": "分类",
-        "pagePath": "pages/category/category",
+        "text": "教练",
+        "pagePath": "pages/coach/coach",
         "iconPath": "static/tabs/category_default.png",
         "selectedIconPath": "static/tabs/category_selected.png"
       },
       {
-        "text": "购物车",
-        "pagePath": "pages/cart/cart",
+        "text": "课程",
+        "pagePath": "pages/course/course",
         "iconPath": "static/tabs/cart_default.png",
         "selectedIconPath": "static/tabs/cart_selected.png"
       },

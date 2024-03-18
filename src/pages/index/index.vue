@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
+import CategoryPanel from './components/categoryPanel.vue';
 const noticeText = ref('这是一条滚动通知');
 
 onMounted(() => {
@@ -13,6 +14,13 @@ onMounted(() => {
 <template>
   <CztySwiper />
   <uni-notice-bar :show-icon="true" :scrollable="true" :text="noticeText" mode="closeable" :speed="50" />
+  <categoryPanel />
+  <CztyAutoVerticalNotice />
+  <CztyVideoSwiper />
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+page {
+  background-color: #f7f7f7;
+}
+</style>

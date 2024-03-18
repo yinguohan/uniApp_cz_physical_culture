@@ -6,7 +6,7 @@ export default {
       background: ['color1', 'color2', 'color3'],
       indicatorDots: true,
       autoplay: true,
-      interval: 5000,
+      interval: 20000,
       duration: 100,
     };
   },
@@ -53,7 +53,7 @@ export default {
   width: 100%;
 }
 .swiper {
-  height: 300rpx;
+  height: 450rpx;
 }
 .swiper-item {
   display: block;

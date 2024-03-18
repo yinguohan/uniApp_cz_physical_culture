@@ -44,10 +44,12 @@
     }
   ],
   "globalStyle": {
-    "navigationBarTextStyle": "black",
+    // 设置导航栏标题文字的颜色
+    "navigationBarTextStyle": "white",
     "navigationBarTitleText": "",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
+    // 设置导航栏的背景色
+    "navigationBarBackgroundColor": "#DB724D",
+    "backgroundColor": "#EE82EE"
   },
   // 设置 TabBar
   "tabBar": {
